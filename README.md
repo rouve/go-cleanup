@@ -1,4 +1,4 @@
-![Go](https://img.shields.io/badge/Go-1.24+-blue.svg)\
+![Go](https://img.shields.io/badge/Go-1.19+-blue.svg)\
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 A robust Go utility for cleaning up old files in specified directories with configurable age thresholds and logging capabilities.
