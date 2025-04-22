@@ -36,7 +36,7 @@ Copy
 Download
 
 # Clone the repository
-git clone https://github.com/yourusername/file-cleanup.git
+git clone https://github.com/rouve/go-cleanup.git
 cd file-cleanup
 
 # Build the binary
@@ -53,7 +53,7 @@ Copy
 
 Download
 
-go install github.com/yourusername/file-cleanup@latest
+go install github.com/rouve/go-cleanup@latest
 
 #### 3\. Download Pre-built Binary
 
