@@ -40,7 +40,7 @@ git clone https://github.com/rouve/go-cleanup.git
 cd go-cleanup
 
 # Build the binary
-go build -o go-cleanup
+go build -o go-cleanup go-cleanup.go
 
 # Install system-wide (optional)
 sudo mv go-cleanup /usr/local/bin/
