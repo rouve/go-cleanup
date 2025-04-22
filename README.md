@@ -37,13 +37,13 @@ Download
 
 # Clone the repository
 git clone https://github.com/rouve/go-cleanup.git
-cd file-cleanup
+cd go-cleanup
 
 # Build the binary
-go build -o cleanup
+go build -o go-cleanup
 
 # Install system-wide (optional)
-sudo mv cleanup /usr/local/bin/
+sudo mv go-cleanup /usr/local/bin/
 
 #### 2\. Using go install
 
@@ -68,7 +68,7 @@ Copy
 
 Download
 
-cleanup --dir=/path/to/directory [options]
+go-cleanup --dir=/path/to/directory [options]
 
 ### Basic Examples
 
@@ -79,16 +79,16 @@ Copy
 Download
 
 # Clean files older than 7 days (default)
-cleanup --dir=/tmp
+go-cleanup --dir=/tmp
 
 # Clean files older than 30 days
-cleanup --dir=/var/log --days=30
+go-cleanup --dir=/var/log --days=30
 
 # Dry run (test without deleting)
-cleanup --dir=/backups --days=90 --dry-run
+go-cleanup --dir=/backups --days=90 --dry-run
 
 # With logging to file
-cleanup --dir=/data --days=14 --log=/var/log/cleanup.log
+go-cleanup --dir=/data --days=14 --log=/var/log/go-cleanup.log
 
 ### All Options
 
@@ -111,13 +111,13 @@ Copy
 
 Download
 
-0 2 * * * /usr/local/bin/cleanup --dir=/tmp --days=7 --log=/var/log/cleanup.log
+0 2 * * * /usr/local/bin/go-cleanup --dir=/tmp --days=7 --log=/var/log/go-cleanup.log
 
 For Webmin:
 
 1.  Go to "System" → "Scheduled Cron Jobs"
 
-2.  Add new command: `/usr/local/bin/cleanup --dir=/path --days=N`
+2.  Add new command: `/usr/local/bin/go-cleanup --dir=/path --days=N`
 
 3.  Set desired schedule
 
