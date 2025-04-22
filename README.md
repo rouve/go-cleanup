@@ -57,7 +57,7 @@ go install github.com/yourusername/file-cleanup@latest
 
 #### 3\. Download Pre-built Binary
 
-Check the [Releases](https://github.com/yourusername/file-cleanup/releases) page for pre-built binaries.
+Check the [Releases](https://github.com/rouve/go-cleanup/releases) page for pre-built binaries.
 
 Usage
 -----
