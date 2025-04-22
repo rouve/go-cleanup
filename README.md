@@ -29,12 +29,6 @@ Installation
 
 #### 1\. From Source (Recommended)
 
-bash
-
-Copy
-
-Download
-
 # Clone the repository
 git clone https://github.com/rouve/go-cleanup.git
 cd go-cleanup
@@ -47,12 +41,6 @@ sudo mv go-cleanup /usr/local/bin/
 
 #### 2\. Using go install
 
-bash
-
-Copy
-
-Download
-
 go install github.com/rouve/go-cleanup@latest
 
 #### 3\. Download Pre-built Binary
@@ -62,21 +50,9 @@ Check the [Releases](https://github.com/rouve/go-cleanup/releases) page for pr
 Usage
 -----
 
-bash
-
-Copy
-
-Download
-
 go-cleanup --dir=/path/to/directory [options]
 
 ### Basic Examples
-
-bash
-
-Copy
-
-Download
 
 # Clean files older than 7 days (default)
 go-cleanup --dir=/tmp
@@ -105,12 +81,6 @@ Cron Job Setup
 
 Example cron entry to run daily at 2 AM:
 
-bash
-
-Copy
-
-Download
-
 0 2 * * * /usr/local/bin/go-cleanup --dir=/tmp --days=7 --log=/var/log/go-cleanup.log
 
 For Webmin:
@@ -125,10 +95,6 @@ Logging
 -------
 
 Logs include timestamps and operation details. Example log output:
-
-Copy
-
-Download
 
 2023-07-20 14:30:45 - Starting cleanup in /tmp for files older than 7 days (2023-07-13 14:30:45)
 2023-07-20 14:30:45 - Found candidate: tempfile.txt (modified: 2023-07-10 08:15:22)
